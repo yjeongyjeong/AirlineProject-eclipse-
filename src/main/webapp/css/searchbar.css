@@ -1,0 +1,61 @@
+h1{
+margin : 20px 0 0 300px;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	border: 2px solid #666;
+	width: 70%;
+	margin : 0 auto;
+	background-color:white;
+	
+}
+
+th, td {
+	height: 40px;
+	border-bottom: 1px solid #ddd;
+	padding: 0 10px;
+	text-align: center;
+	border-right: 1px dotted #ddd;
+}
+
+.needleft {
+	text-align: left;
+	text-decoration: none;
+}
+
+
+.btn{
+	display: inline;
+	float: right;
+	margin-right: 150px;
+}
+
+.loginform{
+	margin-left: 300px;
+}
+
+#qnawritebtn{
+	margin-right: 20px;
+}
+
+.searchbar{
+	text-align: center;
+	width: 200px;
+	border: 2px solid green;
+	border-radius: 12px;
+	margin-top: 20px;
+	height: 37px;
+}
+.searchbtn{
+		border: 2px solid green;
+	border-radius: 12px;
+	margin-top: 20px;
+	background-color: green;
+	color: white;
+	font-size: 15pt;
+}
+
+#delbtn{
+position: absolute;
+}

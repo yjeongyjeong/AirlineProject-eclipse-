@@ -1,0 +1,51 @@
+Qna고객센터 게시판 테이블
+
+create table qnaboard(
+boardnum number(8) primary key,
+boardsubject varchar2(50) not null,
+boardcontent varchar2(4000),
+boardwriter varchar2(30),
+regidate date default sysdate,
+modifydate date default sysdate,
+boardreref number(8,0),
+boardrelevel number(2,0) default 0,
+boardreseq number(6,0) default 0,
+readcount number(6,0) default 0
+);
+
+---------------------------qna고객센터 게시판 sequence
+create sequence qnareboard_seq start with 1 INCREMENT by 1;
+
+
+--------------------------------------------------------------------
+공지사항 게시판 테이블
+
+create table boardnotice(
+boardnum number(8,0) primary key,
+boardsubject varchar2(200) not null,
+boardcontent varchar2(4000),
+boardwriter varchar2(50) not null,
+regidate date default sysdate,
+modifydate date
+);
+
+---------------------------공지사항 게시판 sequence
+
+create sequence notice_seq start with 1 increment by 1;
+alter table boardnotice add constraint fk_noticeboard foreign key(boardwriter) references kakaouser(userid); /* fk 추가*/
+
+
+
+--------------------------------------------------------------------
+filenotice 공지사항 게시판 파일 테이블
+
+create table filenotice(
+boardnum number ,
+origin varchar2(100),
+uuid varchar2(100) primary key,
+extension varchar2(10),
+fileurl varchar2(100)
+);
+
+----------------------------noticefile의 boardnum가 noticeboard공지사항게시판 boardnum을 참조하는 제약조건 fk 설정
+alter table filenotice add constraint boardnum foreign key(boardnum) references boardnotice(boardnum);
