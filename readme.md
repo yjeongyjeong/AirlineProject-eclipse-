@@ -1,4 +1,4 @@
-<Resource auth="Container" driverClassName="oracle.jdbc.OracleDriver" maxIdle="10" maxTotal="20" maxWaitMillis="-1" name="jdbc/myoracle" password="tiger" type="javax.sql.DataSource" url="jdbc:oracle:thin:@192.168.0.32:1521:xe" username="scott"/>![Slide20](https://github.com/yjeongyjeong/project01/assets/147116001/934a3fcb-36b9-4580-95c4-2c935a9c76c3)
+<Resource auth="Container" driverClassName="oracle.jdbc.OracleDriver" maxIdle="10" maxTotal="20" maxWaitMillis="-1" name="jdbc/myoracle" password="tiger" type="javax.sql.DataSource" url="jdbc:oracle:thin:@192.168.0.32:1521:xe" username="scott"/>
 ![Slide1](https://github.com/yjeongyjeong/project01/assets/147116001/ced6e558-0b49-4542-9367-9c24320a9f04)
 ![Slide2](https://github.com/yjeongyjeong/project01/assets/147116001/c510938e-3acc-45ce-b4e4-56c3822dbbd7)
 ![Slide3](https://github.com/yjeongyjeong/project01/assets/147116001/e5fc902c-97d5-4948-a780-991040fb8188)
