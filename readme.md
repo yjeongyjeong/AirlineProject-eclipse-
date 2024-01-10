@@ -86,14 +86,13 @@ JSTL
 ![Slide14](https://github.com/yjeongyjeong/project01/assets/147116001/1f5a449c-58b0-4673-bb32-53f29c19bc9c)
 ![Slide15](https://github.com/yjeongyjeong/project01/assets/147116001/2a8ac03c-e0f3-49b3-99e5-9a22ad4dd0d6)
   
-</details>  
+</details>
 
-![Slide6](https://github.com/yjeongyjeong/project01/assets/147116001/ae50c435-fd8a-467e-a7a2-e144efa89f9c)
-![Slide7](https://github.com/yjeongyjeong/project01/assets/147116001/54913729-ae84-4ebb-b0c0-a144434d8880)
-![Slide8](https://github.com/yjeongyjeong/project01/assets/147116001/623a0ef4-af36-45a7-b325-3aa25b086136)
-![Slide9](https://github.com/yjeongyjeong/project01/assets/147116001/652efea7-c088-4760-8419-68d873f50576)
-
-![Slide16](https://github.com/yjeongyjeong/project01/assets/147116001/8dbda18a-9cf3-45cf-b8a2-8e6cae7b65a2)
+<details>
+  <summary>
+   주요기능
+  </summary>  
+  
 ![Slide17](https://github.com/yjeongyjeong/project01/assets/147116001/633fe9e6-827f-431a-918b-74d179e173a6)
 ![Slide18](https://github.com/yjeongyjeong/project01/assets/147116001/64e35c79-0d7c-4297-85a5-dca62ed1762b)
 ![Slide19](https://github.com/yjeongyjeong/project01/assets/147116001/2bd03d7f-172c-4bc5-aa0d-9996765b3dbd)
@@ -103,9 +102,21 @@ JSTL
 ![Slide23](https://github.com/yjeongyjeong/project01/assets/147116001/d5556188-5e7f-4ed6-a7bb-19770815dbd1)
 ![Slide24](https://github.com/yjeongyjeong/project01/assets/147116001/5bb4c85e-a323-45b2-9640-103590a1ef04)
 ![Slide25](https://github.com/yjeongyjeong/project01/assets/147116001/35984401-eccd-4726-9ae6-62f5a32a2e25)
-![Slide26](https://github.com/yjeongyjeong/project01/assets/147116001/fbee83b4-b41f-4e9b-a7bd-4723eadc9a08)
-![Slide27](https://github.com/yjeongyjeong/project01/assets/147116001/202fb630-7471-45f4-a011-df77ee79fbe2)
+![Slide26](https://github.com/yjeongyjeong/project01/assets/147116001/fbee83b4-b41f-4e9b-a7bd-4723eadc9a08)  
+  
+  </details>
+  
+<details>
+  <summary>
+   Diagram
+  </summary>  
 
+![Slide6](https://github.com/yjeongyjeong/project01/assets/147116001/ae50c435-fd8a-467e-a7a2-e144efa89f9c)
+![Slide7](https://github.com/yjeongyjeong/project01/assets/147116001/54913729-ae84-4ebb-b0c0-a144434d8880)
+![Slide8](https://github.com/yjeongyjeong/project01/assets/147116001/623a0ef4-af36-45a7-b325-3aa25b086136)
+![Slide9](https://github.com/yjeongyjeong/project01/assets/147116001/652efea7-c088-4760-8419-68d873f50576)
+
+</details>
 
 ### 📑 기능 명세서
 <details>
@@ -116,3 +127,33 @@ JSTL
 ![기능명세서](https://github.com/yjeongyjeong/AirlineProject-eclipse-/assets/147116001/9f6880b0-b96f-491d-8074-30cdd2ed88ac)
 
 </details>
+
+### 📊 Diagram
+<details>
+  <summary>
+    Usecase
+  </summary>
+
+![UsecaseDiagram](https://github.com/yjeongyjeong/springProject/assets/147116001/9bf8257a-47ec-45c4-8615-8b5a4fb0b453)
+ </details>
+ 
+<details>
+  <summary>
+    ER
+  </summary>
+
+![ERDiagram](https://github.com/yjeongyjeong/AirlineProject-eclipse-/assets/147116001/89831676-8955-4c50-8813-772cbbbeb027)
+
+</details>
+
+<details>
+  <summary>
+    Class
+  </summary>
+
+![ClassDiagram](https://github.com/yjeongyjeong/AirlineProject-eclipse-/assets/147116001/6039b560-2e4d-4fb9-93df-13b09211e434)
+
+</details>
+
+
+   
