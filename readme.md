@@ -1,10 +1,79 @@
 <Resource auth="Container" driverClassName="oracle.jdbc.OracleDriver" maxIdle="10" maxTotal="20" maxWaitMillis="-1" name="jdbc/myoracle" password="tiger" type="javax.sql.DataSource" url="jdbc:oracle:thin:@192.168.0.32:1521:xe" username="scott"/>
 
+## ✈️ 항공사 웹사이트 구현(Eclipse) ✈️
+
+### 목차
+* [개요](#-개요)
+* [개발 환경](#-개발-환경)
+* [조원](#-조원)
+* [PPT](#-ppt)
+* [기능 명세서](#-기능-명세서)
+* [Diagram](#-diagram)
+* [기능 설명](#-기능-설명)
+* [기능 시연](#-기능-시연)
+
+### ✔ 개요
+```
+개발 기간 : 2023.10.25 - 2023.11.03
+카카오와 아시아나 항공을 참고하여 항공사 웹사이트를 구현하였습니다.
+```
+***
+
+### ⚙ 개발 환경
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+<br>
+![Apache Tomcat](https://img.shields.io/badge/apache%20tomcat-%23F8DC75.svg?style=for-the-badge&logo=apache-tomcat&logoColor=black)
+ORACLE
+<br>
+![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+<br>
+<img src="https://img.shields.io/badge/JSP-E34F26?style=flat-square&logo=JSP&logoColor=white">
+JSTL
+<br>
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+<br>
+![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)
+
+<details>
+	<summary>
+		API 상세
+	</summary>
+  
+* 메일 전송 : activation.jar, imap.jar, javax.mail-api-1.4.7, mailapi, smtp.jar​
+* 기타 : Selenium(크롤링), Summernote(게시판 에디터), DateRangePicker(날짜 선택)
+
+</details>
+
+***
+
+### ✨ 조원
+|이름|역할|
+|----|------|
+|[김민철](https://github.com/alscjf6702)|공지사항 게시판, Q&A 게시판, 카카오상담톡, 회원혜택 페이지, CSS​|
+|[김보람](https://github.com/kbr7105)|헤더, 마이페이지(관리자/일반회원), 일반 로그인, 좌석선택 및 결제, contact 페이지, CSS​|
+|[이동우](https://github.com/dwdwdw12)|항공 데이터 크롤링, 여행일기 게시판, 이벤트 게시판, 항공편 검색, 메인화면, CSS|
+|[정윤정](https://github.com/yjeongyjeong)|회원가입, 아이디 및 패스워드 찾기, 마이페이지(회원정보수정), 카카오 로그인, CSS​|
+***
+
+### 📂 PPT
+<details>
+  <summary>
+   개발환경/개발일정/역할분담
+  </summary>
+
 ![Slide1](https://github.com/yjeongyjeong/project01/assets/147116001/ced6e558-0b49-4542-9367-9c24320a9f04)
 ![Slide2](https://github.com/yjeongyjeong/project01/assets/147116001/c510938e-3acc-45ce-b4e4-56c3822dbbd7)
 ![Slide3](https://github.com/yjeongyjeong/project01/assets/147116001/e5fc902c-97d5-4948-a780-991040fb8188)
 ![Slide4](https://github.com/yjeongyjeong/project01/assets/147116001/1ffddd91-b083-4c83-bf9c-02b7b23c2486)
 ![Slide5](https://github.com/yjeongyjeong/project01/assets/147116001/5f380692-3b2c-470f-a898-68e339a2d819)
+
+</details>
+
 ![Slide6](https://github.com/yjeongyjeong/project01/assets/147116001/ae50c435-fd8a-467e-a7a2-e144efa89f9c)
 ![Slide7](https://github.com/yjeongyjeong/project01/assets/147116001/54913729-ae84-4ebb-b0c0-a144434d8880)
 ![Slide8](https://github.com/yjeongyjeong/project01/assets/147116001/623a0ef4-af36-45a7-b325-3aa25b086136)
@@ -28,3 +97,13 @@
 ![Slide26](https://github.com/yjeongyjeong/project01/assets/147116001/fbee83b4-b41f-4e9b-a7bd-4723eadc9a08)
 ![Slide27](https://github.com/yjeongyjeong/project01/assets/147116001/202fb630-7471-45f4-a011-df77ee79fbe2)
 
+
+### 📑 기능 명세서
+<details>
+  <summary>
+    기능 명세서
+  </summary>
+  
+![기능명세서](https://github.com/yjeongyjeong/AirlineProject-eclipse-/assets/147116001/9f6880b0-b96f-491d-8074-30cdd2ed88ac)
+
+</details>
