@@ -58,6 +58,7 @@
 |[김보람](https://github.com/kbr7105)|헤더, 마이페이지(관리자/일반회원), 항공일정 조회, CSS​|
 |[이동우](https://github.com/dwdwdw12)|항공 데이터 크롤링, 여행일기 게시판, 이벤트 게시판, CSS|
 |[정윤정](https://github.com/yjeongyjeong)|회원가입, 아이디 찾기, 패스워드 찾기, CSS​|
+
 ***
 
 ### 📂 PPT
@@ -90,7 +91,7 @@
 
 <details>
   <summary>
-   주요기능
+   기능요구사항
   </summary>  
   
 ![Slide17](https://github.com/yjeongyjeong/project01/assets/147116001/633fe9e6-827f-431a-918b-74d179e173a6)
@@ -118,6 +119,8 @@
 
 </details>
 
+***
+
 ### 📑 기능 명세서
 <details>
   <summary>
@@ -127,6 +130,8 @@
 ![기능명세서](https://github.com/yjeongyjeong/AirlineProject-eclipse-/assets/147116001/9f6880b0-b96f-491d-8074-30cdd2ed88ac)
 
 </details>
+
+***
 
 ### 📊 Diagram
 <details>
@@ -155,5 +160,8 @@
 
 </details>
 
+***
+
+### 📽 기능 시연
 
    
