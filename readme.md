@@ -54,10 +54,10 @@ JSTL
 ### ✨ 조원
 |이름|역할|
 |----|------|
-|[김민철](https://github.com/alscjf6702)|공지사항 게시판, Q&A 게시판, 카카오상담톡, 회원혜택 페이지, CSS​|
-|[김보람](https://github.com/kbr7105)|헤더, 마이페이지(관리자/일반회원), 일반 로그인, 좌석선택 및 결제, contact 페이지, CSS​|
-|[이동우](https://github.com/dwdwdw12)|항공 데이터 크롤링, 여행일기 게시판, 이벤트 게시판, 항공편 검색, 메인화면, CSS|
-|[정윤정](https://github.com/yjeongyjeong)|회원가입, 아이디 및 패스워드 찾기, 마이페이지(회원정보수정), 카카오 로그인, CSS​|
+|[김민철](https://github.com/alscjf6702)|공지사항 게시판, Q&A 게시판, CSS​|
+|[김보람](https://github.com/kbr7105)|헤더, 마이페이지(관리자/일반회원), 항공일정 조회, CSS​|
+|[이동우](https://github.com/dwdwdw12)|항공 데이터 크롤링, 여행일기 게시판, 이벤트 게시판, CSS|
+|[정윤정](https://github.com/yjeongyjeong)|회원가입, 아이디 찾기, 패스워드 찾기, CSS​|
 ***
 
 ### 📂 PPT
@@ -74,16 +74,25 @@ JSTL
 
 </details>
 
-![Slide6](https://github.com/yjeongyjeong/project01/assets/147116001/ae50c435-fd8a-467e-a7a2-e144efa89f9c)
-![Slide7](https://github.com/yjeongyjeong/project01/assets/147116001/54913729-ae84-4ebb-b0c0-a144434d8880)
-![Slide8](https://github.com/yjeongyjeong/project01/assets/147116001/623a0ef4-af36-45a7-b325-3aa25b086136)
-![Slide9](https://github.com/yjeongyjeong/project01/assets/147116001/652efea7-c088-4760-8419-68d873f50576)
+<details>
+  <summary>
+   주요기능
+  </summary>
+  
 ![Slide10](https://github.com/yjeongyjeong/project01/assets/147116001/3048518c-b2a1-4c8c-b53b-54f3a1d10a39)
 ![Slide11](https://github.com/yjeongyjeong/project01/assets/147116001/862802aa-34f0-4988-a33d-8a9302627e22)
 ![Slide12](https://github.com/yjeongyjeong/project01/assets/147116001/b7a60d39-cc9e-4f34-aeb8-d972a1af5b4c)
 ![Slide13](https://github.com/yjeongyjeong/project01/assets/147116001/b8ae91f8-b0df-49da-83b8-197f06421b2f)
 ![Slide14](https://github.com/yjeongyjeong/project01/assets/147116001/1f5a449c-58b0-4673-bb32-53f29c19bc9c)
 ![Slide15](https://github.com/yjeongyjeong/project01/assets/147116001/2a8ac03c-e0f3-49b3-99e5-9a22ad4dd0d6)
+  
+</details>  
+
+![Slide6](https://github.com/yjeongyjeong/project01/assets/147116001/ae50c435-fd8a-467e-a7a2-e144efa89f9c)
+![Slide7](https://github.com/yjeongyjeong/project01/assets/147116001/54913729-ae84-4ebb-b0c0-a144434d8880)
+![Slide8](https://github.com/yjeongyjeong/project01/assets/147116001/623a0ef4-af36-45a7-b325-3aa25b086136)
+![Slide9](https://github.com/yjeongyjeong/project01/assets/147116001/652efea7-c088-4760-8419-68d873f50576)
+
 ![Slide16](https://github.com/yjeongyjeong/project01/assets/147116001/8dbda18a-9cf3-45cf-b8a2-8e6cae7b65a2)
 ![Slide17](https://github.com/yjeongyjeong/project01/assets/147116001/633fe9e6-827f-431a-918b-74d179e173a6)
 ![Slide18](https://github.com/yjeongyjeong/project01/assets/147116001/64e35c79-0d7c-4297-85a5-dca62ed1762b)
