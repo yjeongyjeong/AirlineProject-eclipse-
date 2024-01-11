@@ -166,7 +166,7 @@
 
 <details>
   <summary>
-    회원가입 : 정보입력
+    회원가입 : 약관및회원확인
   </summary>
   
 ![09_회원가입_약관및회원확인](https://github.com/yjeongyjeong/AirlineProject-eclipse-/assets/147116001/fe89a27d-8a1e-4d8a-b0b0-94edcba32968)  
@@ -191,7 +191,6 @@
 
 </details>
 
-
 <details>
   <summary>
     마이페이지(유저) : 회원정보수정
@@ -203,10 +202,30 @@
 
 <details>
   <summary>
+    마이페이지(유저) : 기타조회
+  </summary>
+
+![08_마이페이지_기타조회](https://github.com/yjeongyjeong/AirlineProject-eclipse-/assets/147116001/de1e4ac9-c83a-4991-9fc1-b8ac920e97ca)
+
+</details>
+
+<details>
+  <summary>
     마이페이지(관리자) : 회원조회
   </summary>
 
 ![05_마이페이지_관리자_회원조회](https://github.com/yjeongyjeong/AirlineProject-eclipse-/assets/147116001/3f13cebc-89ad-46cb-8867-afce11ca67fc)
 
 </details>
+
+<details>
+  <summary>
+    마이페이지(관리자) : 기타조회
+  </summary>
+
+![06_마이페이지_관리자_기타조회](https://github.com/yjeongyjeong/AirlineProject-eclipse-/assets/147116001/6dd33e16-add7-4888-850c-9fdc4ae50a74)
+
+</details>
+
+
    
