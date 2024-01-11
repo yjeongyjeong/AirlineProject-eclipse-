@@ -181,4 +181,32 @@
 ![10_회원가입_정보입력](https://github.com/yjeongyjeong/AirlineProject-eclipse-/assets/147116001/f6a769db-2a1c-415b-bbab-78b1403f86a6)
 
 </details>
+
+<details>
+  <summary>
+    회원가입 : 아이디찾기
+  </summary>
+
+![11_회원가입_아이디찾기](https://github.com/yjeongyjeong/AirlineProject-eclipse-/assets/147116001/de5fafd3-7866-46e8-8b76-38a2d65b0f22)
+
+</details>
+
+
+<details>
+  <summary>
+    마이페이지(유저) : 회원정보수정
+  </summary>
+
+![07_마이페이지_회원정보수정](https://github.com/yjeongyjeong/AirlineProject-eclipse-/assets/147116001/458b8ef0-5d35-4a68-900e-134737183cb1)
+
+</details>
+
+<details>
+  <summary>
+    마이페이지(관리자) : 회원조회
+  </summary>
+
+![05_마이페이지_관리자_회원조회](https://github.com/yjeongyjeong/AirlineProject-eclipse-/assets/147116001/3f13cebc-89ad-46cb-8867-afce11ca67fc)
+
+</details>
    
