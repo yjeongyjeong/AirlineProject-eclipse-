@@ -227,5 +227,14 @@
 
 </details>
 
+<details>
+  <summary>
+    게시판 : 공지사항 및 QnA
+  </summary>
+
+![01_게시판_공지사항및QnA](https://github.com/yjeongyjeong/AirlineProject-eclipse-/assets/147116001/ba7b9285-ae69-44e3-a77f-faf142091fcc)
+
+</details>
+
 
    
