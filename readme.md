@@ -166,46 +166,65 @@
 
 <details>
   <summary>
-    회원가입 : 약관및회원확인
+    게시판 : 공지사항 및 QnA
+  </summary>
+
+https://github.com/yjeongyjeong/AirlineProject-eclipse-/assets/147116001/45fda15c-5a2b-4e96-a69f-df52ead16693
+
+</details>
+
+<details>
+  <summary>
+    게시판 : 여행일기(글쓰기)
+  </summary>
+
+https://github.com/yjeongyjeong/AirlineProject-eclipse-/assets/147116001/e85c1038-6f1a-4e54-8132-1ff33319b2ef
+
+</details>
+
+<details>
+  <summary>
+    게시판 : 여행일기(조회)
+  </summary>
+
+https://github.com/yjeongyjeong/AirlineProject-eclipse-/assets/147116001/0c422b21-ebac-4ac5-a8e2-ed66d0693563
+
+</details>
+
+<details>
+  <summary>
+    게시판 : 여행일기(댓글)
+  </summary>
+
+https://github.com/yjeongyjeong/AirlineProject-eclipse-/assets/147116001/a7fe4e6e-4fc2-41e4-a0c0-2c5f8822e189
+
+</details>
+
+<details>
+  <summary>
+    게시판 : 여행일기(추천)
+  </summary>
+
+https://github.com/yjeongyjeong/AirlineProject-eclipse-/assets/147116001/a9acf6f9-b22f-49a5-b779-16da80ce3c63
+
+</details>
+
+<details>
+  <summary>
+    게시판 : 이벤트(수정)
   </summary>
   
-![09_회원가입_약관및회원확인](https://github.com/yjeongyjeong/AirlineProject-eclipse-/assets/147116001/fe89a27d-8a1e-4d8a-b0b0-94edcba32968)  
+  https://github.com/yjeongyjeong/AirlineProject-eclipse-/assets/147116001/9936f3e9-ca09-450b-af99-299dcfa2b83d
+  
 
 </details>
 
 <details>
   <summary>
-    회원가입 : 정보입력
+    게시판 : 이벤트(조회)
   </summary>
 
-![10_회원가입_정보입력](https://github.com/yjeongyjeong/AirlineProject-eclipse-/assets/147116001/f6a769db-2a1c-415b-bbab-78b1403f86a6)
-
-</details>
-
-<details>
-  <summary>
-    회원가입 : 아이디찾기
-  </summary>
-
-![11_회원가입_아이디찾기](https://github.com/yjeongyjeong/AirlineProject-eclipse-/assets/147116001/de5fafd3-7866-46e8-8b76-38a2d65b0f22)
-
-</details>
-
-<details>
-  <summary>
-    마이페이지(유저) : 회원정보수정
-  </summary>
-
-![07_마이페이지_회원정보수정](https://github.com/yjeongyjeong/AirlineProject-eclipse-/assets/147116001/458b8ef0-5d35-4a68-900e-134737183cb1)
-
-</details>
-
-<details>
-  <summary>
-    마이페이지(유저) : 기타조회
-  </summary>
-
-![08_마이페이지_기타조회](https://github.com/yjeongyjeong/AirlineProject-eclipse-/assets/147116001/de1e4ac9-c83a-4991-9fc1-b8ac920e97ca)
+https://github.com/yjeongyjeong/AirlineProject-eclipse-/assets/147116001/46b1f85d-f1c8-4c26-8299-20c2b1311232
 
 </details>
 
@@ -214,7 +233,7 @@
     마이페이지(관리자) : 회원조회
   </summary>
 
-![05_마이페이지_관리자_회원조회](https://github.com/yjeongyjeong/AirlineProject-eclipse-/assets/147116001/3f13cebc-89ad-46cb-8867-afce11ca67fc)
+https://github.com/yjeongyjeong/AirlineProject-eclipse-/assets/147116001/7eb94747-f916-46b0-9d51-693f0ee4cb0e
 
 </details>
 
@@ -223,18 +242,53 @@
     마이페이지(관리자) : 기타조회
   </summary>
 
-![06_마이페이지_관리자_기타조회](https://github.com/yjeongyjeong/AirlineProject-eclipse-/assets/147116001/6dd33e16-add7-4888-850c-9fdc4ae50a74)
+https://github.com/yjeongyjeong/AirlineProject-eclipse-/assets/147116001/d8e5e128-b3bb-4bab-b0aa-8a2bf621cfa8
 
 </details>
 
 <details>
   <summary>
-    게시판 : 공지사항 및 QnA
+    마이페이지(유저) : 회원정보수정
   </summary>
 
-![01_게시판_공지사항및QnA](https://github.com/yjeongyjeong/AirlineProject-eclipse-/assets/147116001/ba7b9285-ae69-44e3-a77f-faf142091fcc)
+https://github.com/yjeongyjeong/AirlineProject-eclipse-/assets/147116001/b1a3636f-2a2e-4205-8026-35bd65aaf401
 
 </details>
 
+<details>
+  <summary>
+    마이페이지(유저) : 기타조회
+  </summary>
+
+https://github.com/yjeongyjeong/AirlineProject-eclipse-/assets/147116001/fe01f08e-e4cb-4c34-83c7-b80bc376a764
+
+</details>
+
+<details>
+  <summary>
+    회원가입 : 약관 및 회원확인
+  </summary>
+
+https://github.com/yjeongyjeong/AirlineProject-eclipse-/assets/147116001/dbe588b4-7cba-4f51-9dea-7fd76d16db3a
+
+</details>
+
+<details>
+  <summary>
+    회원가입 : 정보입력
+  </summary>
+
+https://github.com/yjeongyjeong/AirlineProject-eclipse-/assets/147116001/24fdf0f3-225e-458f-be8d-d90f08994bd0
+
+</details>
+
+<details>
+  <summary>
+    회원가입 : 아이디 찾기
+  </summary>
+
+https://github.com/yjeongyjeong/AirlineProject-eclipse-/assets/147116001/cfbaca51-99cb-4cfc-a109-1677927edd9f
+
+</details>
 
    
