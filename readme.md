@@ -164,4 +164,21 @@
 
 ### 📽 기능 시연
 
+<details>
+  <summary>
+    회원가입 : 정보입력
+  </summary>
+  
+![09_회원가입_약관및회원확인](https://github.com/yjeongyjeong/AirlineProject-eclipse-/assets/147116001/fe89a27d-8a1e-4d8a-b0b0-94edcba32968)  
+
+</details>
+
+<details>
+  <summary>
+    회원가입 : 정보입력
+  </summary>
+
+![10_회원가입_정보입력](https://github.com/yjeongyjeong/AirlineProject-eclipse-/assets/147116001/f6a769db-2a1c-415b-bbab-78b1403f86a6)
+
+</details>
    
