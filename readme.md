@@ -46,7 +46,20 @@
   
 * 메일 전송 : activation.jar, imap.jar, javax.mail-api-1.4.7, mailapi, smtp.jar​
 * 기타 : Selenium(크롤링), Summernote(게시판 에디터), DateRangePicker(날짜 선택)
-
+```
+Tomcat/context.xml에 Resource 추가 필요
+예시)
+   <Resource name="jdbc/myoracle"
+         auth="Container"
+         type="javax.sql.DataSource"
+         maxTotal="20"
+         maxIdle="10"
+         maxWaitMillis="-1"
+         username="username"
+         password="password"
+         driverClassName="oracle.jdbc.OracleDriver"
+         url="jdbc:oracle:thin:@localhost:1521:xe"/>
+```
 </details>
 
 ***
