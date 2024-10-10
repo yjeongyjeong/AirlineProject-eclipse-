@@ -91,7 +91,7 @@ public class AuthEmailRequestAction implements Action {
 		System.out.println("authCodeInput.jsp로 이동!");
 	}
 
-	// 인증 번호 생성기 : 메서드를 따로 빼도 괜찮을 것 같음
+	// 인증 번호 생성기
 	public String authCodeMaker() {
 		String authCode = null;
 

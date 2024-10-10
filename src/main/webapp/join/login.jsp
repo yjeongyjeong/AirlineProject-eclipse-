@@ -33,7 +33,7 @@
 			<div class="row tm-banner-row tm-banner-row-header">
 				<div class="tm-banner-header">
 					<h1 class="text-uppercase tm-banner-title">Login</h1>
-					<p class="mb-4">아이디 및 패스워드를 입력 해 주세요.</p>
+					<p class="mb-4">아이디 및 패스워드를 입력해주세요.</p>
 				</div>
 			</div>
 		<!-- 	<div class="row tm-banner-row tm-banner-row-header tm-about-text-wrap mx-auto text-center">	 -->
@@ -54,16 +54,11 @@
 						<input type="password" id="pwd" name="pwd" class="form-control" placeholder="pwd" required />
 					</div>
 					<div class="form-group tm-container">
+					<p style="color: red">${message}</p>
 						<label for="remember">아이디 저장</label> 
 						<input type="checkbox" name="rememberCheck" class="form-control" />
 					</div>
-					<input type="hidden" name = "mess" value="${message}"/>
-					<c:choose>
-						<c:when test="${messge}">
-							<input type="text" value="${messge}"/>
-						</c:when>
-						<c:otherwise></c:otherwise>
-					</c:choose>	
+
 					<div class="form-group tm-form-group tm-form-group-pad tm-form-group-1">
 						<button type="submit" class="btn btn-primary tm-btn-primary tm-btn-send text-uppercase" onclick="return check()">로그인</button>
 					</div>
@@ -76,7 +71,6 @@
 					<div class="form-group tm-form-group tm-form-group-pad tm-form-group-1">
 						<button type="button" class="btn btn-primary tm-btn-primary tm-btn-send text-uppercase" onclick="location.href='UserServlet?command=find_pwd'">비밀번호 찾기</button>
 					</div>
-					<script type="text/javascript">alertMessage();</script>
 			</form>
 			
 		</div>
@@ -103,29 +97,18 @@
 	</div>
 	<%@ include file="../common/footer.jsp"%>
 	<script type="text/javascript">
+		
 		function check() {
-			var returnIdAndPwd = document.frm.msee;
-			
-			if(mess.value.length != 0){
-				alert(returnIdAndPwd);
-			}
-			
 			if (document.frm.userid.value.length == 0) {
-				alert("아이디를 입력 해 주세요");
+				alert("아이디를 입력해주세요");
 				document.frm.userid.focus;
 				return false;
 			} else if (document.frm.pwd.value.length == 0) {
-				alert("아이디를 입력 해 주세요");
+				alert("아이디를 입력해주세요");
 				document.frm.userid.focus;
 				return false;
 			}
 			return true;
-		}
-		function alertMessage(){
-			var message = ${ message }
-			if(message && message.trim() !== "" && message !== "null"){
-			   alert(message);
-			}
 		}
 	</script>
 </body>

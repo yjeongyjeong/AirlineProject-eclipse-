@@ -60,43 +60,6 @@ public class UserDAO {
 		return vo;
 	}
 
-	//로그인 체크
-	public KakaoUserVO loginCheck(String userid) {
-		String sql = "select * from kakaouser where userid = ?";
-		Connection con = null;
-		PreparedStatement ps = null;
-		ResultSet rs = null;
-		KakaoUserVO vo = null;
-		
-		try {
-			con = DBManager.getConnection();
-			ps = con.prepareStatement(sql);
-			ps.setString(1, userid);
-			rs = ps.executeQuery();
-			
-			if(rs.next()) { //pwd 랑 admin 여부만 가지고 오면 됨..
-				vo = new KakaoUserVO();
-				vo.setUserid(rs.getString("userid"));
-				vo.setGradecode(rs.getInt("gradecode"));
-				vo.setKorName(rs.getString("korName"));
-				vo.setEngName(rs.getString("engName"));
-				vo.setUsernum(rs.getLong("usernum"));
-				vo.setPwd(rs.getString("pwd"));
-				vo.setGender(rs.getInt("gender"));
-				vo.setMail(rs.getString("mail"));
-				vo.setPhone(rs.getString("phone"));
-				vo.setPostcode(rs.getInt("postcode"));
-				vo.setAddress(rs.getString("address"));
-				vo.setAdmin(rs.getInt("admin"));
-			}
-		}catch(Exception e) {
-			e.printStackTrace();
-		}finally {
-			DBManager.getClose(rs, ps, con);
-		}
-		return vo;
-	}
-
 	//모든 유저정보 조회
 	public List<KakaoUserVO> getAllUser() {
 		List<KakaoUserVO> list = new ArrayList<KakaoUserVO>();

@@ -2,6 +2,7 @@ package com.user.controller.action;
 
 import java.io.IOException;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
@@ -29,8 +30,7 @@ public class LoginCheckAction implements Action {
 		//아이디 체크
 		int result = dao.getUserid(userid);
 		//패스워드 체크
-		KakaoUserVO vo = dao.loginCheck(userid);
-		KakaoUserVO kvo = dao.getUser(userid);
+		KakaoUserVO vo = dao.getUser(userid);
 
 		Cookie cookie = new Cookie("userid", userid);
 		String rememberCheck = request.getParameter("rememberCheck");
@@ -49,27 +49,29 @@ public class LoginCheckAction implements Action {
 		// 쿼리를 통과하면 아이디는 같음-> 비밀번호 같은 경우->관리자/일반유저 여부 체크해서 url 나눠야 함
 		// 로그인 통과 시 세션생성
 		System.out.println("result : "+result);
+		HttpSession session = request.getSession();
+
 		if(result == 0) {
-			request.setAttribute("message", result);
-			System.out.println("result id 진입");
+			System.out.println("아이디 존재하지 않음");
+			session.setAttribute("message", "아이디 혹은 비밀번호를 다시 확인해주시기 바랍니다.");
 			response.sendRedirect("UserServlet?command=login");
-		}
+			}
 		
 		if(result == 1) {//아이디는 통과
 		if(vo.getPwd().equals(pwd)) {
 			if (vo.getAdmin() == 0) {// 일반회원
+				session.setAttribute("loginUser", vo);
 				response.sendRedirect("UserServlet?command=user&userid=" + userid);
 				System.out.println("일반회원 로그인");
 			} else {// 관리자
+				session.setAttribute("loginUser", vo);
 				response.sendRedirect("UserServlet?command=admin&userid=" + userid);
 				System.out.println("관리자 로그인");
 			}
-			HttpSession session = request.getSession();
-			session.setAttribute("loginUser", kvo);
 
 		} else {// 비밀번호 틀린 경우 -> 관리자 여부 체크할 필요 없음
 			System.out.println("비밀번호 틀림");
-			request.setAttribute("message", result);
+			session.setAttribute("message", "아이디 혹은 비밀번호를 다시 확인해주시기 바랍니다.");
 			response.sendRedirect("UserServlet?command=login");
 		}
 	}
